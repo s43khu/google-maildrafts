@@ -19,6 +19,32 @@ This React application allows users to automate the creation of Gmail drafts usi
 
 ## Getting Started
 
+## Google Sheets Format
+
+To create Gmail drafts using this application, your Google Sheet should follow this specific format \*\*it should not be a private sheet:
+
+| **Email**             | **Subject**          | **Message**                |
+| --------------------- | -------------------- | -------------------------- |
+| recipient@example.com | Your Subject Here    | Your message content here. |
+| another@example.com   | Another Subject Here | Another message content.   |
+| ...                   | ...                  | ...                        |
+
+### Example Sheet Data
+
+| **Email**              | **Subject**       | **Message**                                              |
+| ---------------------- | ----------------- | -------------------------------------------------------- |
+| john.doe@example.com   | Meeting Reminder  | Don't forget about the meeting tomorrow at 10 AM.        |
+| jane.smith@example.com | Project Update    | The project has been updated. Please review the changes. |
+| team@example.com       | Weekly Newsletter | Here's the latest company newsletter. Enjoy!             |
+
+### Instructions
+
+1. **Email**: The recipient's email address where the draft will be sent.
+2. **Subject**: The subject line of the email.
+3. **Message**: The body content of the email.
+
+Each row in your Google Sheet corresponds to a separate Gmail draft. Make sure that your sheet follows this structure to ensure the application processes the data correctly.
+
 ### Prerequisites
 
 - Node.js and npm installed
