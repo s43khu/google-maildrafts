@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [react(),
-  ],
+  base: "/anon-chat",
+  plugins: [react()],
   //     // http: require.resolve('rollup-plugin-node-builtins'),
   //     // util: require.resolve('rollup-plugin-node-builtins'),
   //     // stream: require.resolve('rollup-plugin-node-builtins'),
@@ -13,4 +13,4 @@ export default defineConfig({
   //     // querystring: require.resolve('rollup-plugin-node-builtins'),
   //   },
   // },
-})
+});
