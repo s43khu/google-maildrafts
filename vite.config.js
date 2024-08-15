@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/anon-chat",
+  base: "/google-maildrafts",
   plugins: [react()],
   //     // http: require.resolve('rollup-plugin-node-builtins'),
   //     // util: require.resolve('rollup-plugin-node-builtins'),
