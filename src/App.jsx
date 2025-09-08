@@ -9,7 +9,7 @@ function App() {
   const [profile, setProfile] = useState(null);
   const [link, setLink] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
-  const [range, setRange] = useState('Sheet1!A2:C');
+  const [range, setRange] = useState('Sheet1!A2:C');    //NOTE: update the keys according to the requirements
 
   const login = useGoogleLogin({
     scope: 'https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/gmail.compose',
